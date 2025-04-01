@@ -4,44 +4,43 @@
 }
 
 header{
-    height: 96px;
-    width: 1585px;
-    /* border: 1px solid blue; */
+    height: 21.5%;
+    width: 99%;
+    border: 1px solid blue;
     margin: 0 auto;
+    position: fixed;
 }
 
 nav{
-    height: 76px;
-    width: 1535px;
-    /* border: 1px solid red; */
+    height: 100%;
+    width: 96.8%;
+    border: 1px solid rgb(43, 255, 0);
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    
 }
 
 .logo{
-    /* border: 1px solid black; */
-    width: 330px;
-    height: 76px;
-
+    border: 1px solid black;
+    width: 21%;
+    height: 100%;
 }
 
 .logo img{
     width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 15px;
+    margin-top: 15px;   
 }
 
 .navbar{
-    height: 76px;
-    width: 1151px;
-    /* border: 1px solid gray; */
+    height: 100%;
+    width: 75%;
+    border: 1px solid gray;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;  
+    flex: 1;
 }
 
 .nav-ul{
@@ -49,9 +48,9 @@ nav{
     display: flex;
     justify-content: flex-end;
     width: 990px;
-    /* border: 1px solid pink; */
+    border: 1px solid pink;
     flex-wrap: wrap;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .nav-ul li{
@@ -59,7 +58,7 @@ nav{
     font-weight: 400;
     padding: 28px 0;
     margin-right: 30px;
-    /* border: 1px saddlebrown solid; */
+    border: 1px saddlebrown solid;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -73,8 +72,8 @@ nav{
     /* border-bottom: #f7ac17; */
 }
 .apply-now{
-    height: 37px;
-    width: 107px;
+    /* height: 37px;
+    width: 107px; */
     background-color: #004083;
     color: #fff;
     padding: 8px 16px;
@@ -87,5 +86,17 @@ nav{
 }
 
 .apply-now:hover{
-     background-color: #f7ac17;
+    background-color: #f7ac17;
 }
+
+/* main{
+    height: 900px;
+    width: 1585px;
+    border: 1px solid black;
+}
+
+.main-container{
+    border: 1px solid purple;
+    height: 900px;
+    width: 1585px;
+} */
