@@ -4,53 +4,50 @@
 }
 
 header{
-    height: 21.5%;
     width: 99%;
-    border: 1px solid blue;
-    margin: 0 auto;
+    /* border: 1px solid blue; */
+    text-align: center;
     position: fixed;
+    z-index: 1000;
 }
 
 nav{
     height: 100%;
     width: 96.8%;
-    border: 1px solid rgb(43, 255, 0);
-    margin: auto;
+    /* border: 1px solid rgb(43, 255, 0); */
+    /* margin: auto; */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
+    margin: auto;
+    top: 0;
+    left: 0;
 }
 
 .logo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 21%;
     height: 100%;
 }
 
 .logo img{
-    width: 100%;
-    margin-top: 15px;   
+    width: 100%;  
 }
 
 .navbar{
     height: 100%;
-    width: 75%;
-    border: 1px solid gray;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 119); */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;  
-    flex: 1;
 }
 
 .nav-ul{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    width: 990px;
-    border: 1px solid pink;
-    flex-wrap: wrap;
-    /* flex: 1; */
+    width: 90%;
+    /* border: 1px solid pink; */
 }
 
 .nav-ul li{
@@ -58,7 +55,7 @@ nav{
     font-weight: 400;
     padding: 28px 0;
     margin-right: 30px;
-    border: 1px saddlebrown solid;
+    /* border: 1px saddlebrown solid; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -69,14 +66,11 @@ nav{
 
 .nav-ul li a:hover{
     color:  #f7ac17;
-    /* border-bottom: #f7ac17; */
 }
 .apply-now{
-    /* height: 37px;
-    width: 107px; */
     background-color: #004083;
     color: #fff;
-    padding: 8px 16px;
+    padding: 10px 16px;
     font-size: 14px;
     line-height: 21px;
     font-family: 'Poppins', sans-serif;
@@ -89,14 +83,15 @@ nav{
     background-color: #f7ac17;
 }
 
-/* main{
-    height: 900px;
-    width: 1585px;
+main{
+    height: auto;
+    width: 99.8%;
     border: 1px solid black;
+    
 }
 
-.main-container{
+.hero-section{
     border: 1px solid purple;
-    height: 900px;
-    width: 1585px;
-} */
+    margin-top: 6%;
+    border: 1px solid crimson;
+}
