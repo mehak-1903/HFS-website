@@ -229,18 +229,18 @@ hr{
 }
 .upward-circle{
     position: absolute;
-    top: 27%;
-    left: 7px;
+    top: -20%;
+    left: -45%;
 }
 
 .downward-circle{
     position: absolute;
-    top: 49%;
-    left: 24%;
+    top: 50%;
+    left: -48%;
     transform: rotate(180deg);
 }
 .circle{
-    /* position: relative; */
+    position: relative;
     height: 180px;
     width: 180px;
     border: 10px solid #f7ac17;
