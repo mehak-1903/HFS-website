@@ -233,6 +233,12 @@ hr{
     left: 7px;
 }
 
+.downward-circle{
+    position: absolute;
+    top: 49%;
+    left: 24%;
+    transform: rotate(180deg);
+}
 .circle{
     /* position: relative; */
     height: 180px;
