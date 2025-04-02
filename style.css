@@ -253,8 +253,28 @@ main{
 }
 
 .grid-images a{
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+
+.grid-text{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    margin-bottom: -8%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient (to bottom, rgba(0, 0, 0, 0, 0.4) 30%);
+}
+
+.grid-text2{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    margin-bottom: -20%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 
 .grid-images p{
