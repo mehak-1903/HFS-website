@@ -158,6 +158,59 @@ main{
 .apply-now-btn:hover{
     background-color: #f7ac17;
 }
+
+.served{
+    height: 762px;
+    max-width: 100%;
+    border: 1px solid blue;
+}
+
+.served-container{
+    height: 602px;
+    width: 69%;
+    border: 1px solid green;
+    margin: 80px auto;
+}
+
+.served-container h2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #004083;
+}
+
+.served-container p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", Sans-serif;
+    margin: 25px 0;
+    line-height: 1.5em;
+}
+
+.explore-more{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.explore-more a{
+    background-color: #004083;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px 40px 40px 40px;
+    padding: 15px 32px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.explore-more a:hover{
+    background-color: #f7ac17;
+}
 /* Expand Container */
 
 .expanded-section{
