@@ -119,17 +119,13 @@ nav{
 
 /*  Topline */
 
-.topline:hover{
+.topline:hover >a{
     color: #f7ac17;
-    border-bottom: 2px solid #f7ac17;
-}
-
-.topline a{
-    color: #545d68;
     text-decoration: none;
     padding-bottom: 21px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid #f7ac17;
 }
+
 /* Our Story Downdown */
 .story-dropdown{
     display: none;
