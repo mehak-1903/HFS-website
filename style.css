@@ -117,6 +117,19 @@ nav{
     font-weight: 500;
 }
 
+/*  Topline */
+
+.topline:hover{
+    color: #f7ac17;
+    border-bottom: 2px solid #f7ac17;
+}
+
+.topline a{
+    color: #545d68;
+    text-decoration: none;
+    padding-bottom: 21px;
+    border-bottom: 2px solid transparent;
+}
 /* Our Story Downdown */
 .story-dropdown{
     display: none;
