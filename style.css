@@ -139,8 +139,7 @@ nav{
     border-radius: 5px;
     top: 100%;
     left: 65%;
-    padding: 10px 0;
-    /* padding-top: 20px; */
+    padding: 13px 0;
 }
 
 .story-dropdown li{
@@ -167,18 +166,16 @@ nav{
     position: absolute;
     background-color: #fff;
     top: 100%;
-    left: 72%;
-    padding: 0;
-    width: 170px;
+    left: 70%;
+    padding: 15px 0;
+    width: 190px;
     border-radius: 10px;
-    height: 90px;
 }
 
 .nav-ul li:hover .sub-contacts li{
     list-style: none;
-    padding: 10px 0;
+    padding: 8px 15px 8px 35px;
     text-align: left;
-    width: 78%;
     margin: auto;
 }
 
