@@ -69,6 +69,7 @@ nav{
 
 .nav-ul li a:hover{
     color:  #f7ac17;
+    /* border-bottom: 2px solid #f7ac17; */
 }
 .apply-now{
     background-color: #004083;
@@ -86,6 +87,126 @@ nav{
     background-color: #f7ac17;
 }
 
+/* Loans Dropdown */
+
+.loans-dropdown{
+    display: none;
+}
+
+.nav-ul li:hover .loans-dropdown{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 230px;
+    border-radius: 10px;
+    top: 100%;
+    left: 47%;
+    padding: 0;
+}
+
+.loans-dropdown li{
+    list-style: none;
+    padding: 5px 5px 5px 20px;
+    text-align: left;
+    margin: auto;
+}
+
+.loans-dropdown li a:hover{
+    color: #004083;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Our Story Downdown */
+.story-dropdown{
+    display: none;
+}
+
+.nav-ul li:hover .story-dropdown{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 10px;
+    top: 100%;
+    left: 65%;
+    padding: 0;
+}
+
+.story-dropdown li{
+    list-style: none;
+    padding: 5px 8px 5px 32px;
+    text-align: left;
+    margin: auto;
+}
+
+.story-dropdown li a:hover{
+    color: #004083;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Contact Dropdown */
+
+.sub-contacts{
+    display: none;
+}
+
+.nav-ul li:hover .sub-contacts{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 72%;
+    padding: 0;
+    width: 170px;
+    border-radius: 10px;
+    height: 90px;
+}
+
+.nav-ul li:hover .sub-contacts li{
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+    width: 78%;
+    margin: auto;
+}
+
+.sub-contacts li a:hover{
+    color: #004083;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Explore Dropdown */
+
+.explore-dropdown{
+    display: none;
+}
+
+.nav-ul li:hover .explore-dropdown{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 140px;
+    padding: 0;
+    top: 100%;
+    left: 78%;
+    border-radius: 10px;
+}
+
+.explore-dropdown li{
+    list-style: none;
+    padding: 10px 8px 10px 30px;  
+    text-align: left;
+    margin:auto;
+}
+
+.explore-dropdown li a:hover{
+    color: #004083;
+    font-size: 14px;
+    font-weight: 500;
+}
 /* Main Section */
 
 main{
