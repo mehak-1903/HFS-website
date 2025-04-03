@@ -122,8 +122,8 @@ nav{
 .topline:hover >a{
     color: #f7ac17;
     text-decoration: none;
-    padding-bottom: 21px;
-    border-bottom: 3px solid #f7ac17;
+    padding-bottom: 26px;
+    border-bottom: 4px solid #f7ac17;
 }
 
 /* Our Story Downdown */
@@ -136,10 +136,11 @@ nav{
     position: absolute;
     background-color: #fff;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 5px;
     top: 100%;
-    left: 65%;
-    padding: 0;
+    left: 64%;
+    padding: 15px 0;
+    /* padding-top: 20px; */
 }
 
 .story-dropdown li{
