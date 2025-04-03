@@ -18,7 +18,6 @@ nav{
     height: 100%;
     max-width: 96.8%;
     /* border: 1px solid rgb(43, 255, 0); */
-    /* margin: auto; */
     display: flex;
     align-items: center;  
     margin: auto;
@@ -102,6 +101,7 @@ nav{
     top: 100%;
     left: 47%;
     padding: 0;
+    border-top: none;
 }
 
 .loans-dropdown li{
@@ -302,6 +302,10 @@ main{
     color: #004083;
 }
 
+.served-container span{
+    color: #f7ac17;
+}
+
 .served-container p{
     text-align: center;
     font-size: 18px;
@@ -325,7 +329,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     border-radius: 30px;
     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0)); */
 }
@@ -385,14 +388,13 @@ main{
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 .grid-text2{
     position: absolute;
     align-items: center;
     color: #fff;
-    margin-bottom: -20%;
+    margin-bottom: -22%;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -434,7 +436,7 @@ main{
     /* border: 1px solid palevioletred; */
     margin: 70px auto;
     display: flex;
-    background: linear-gradient(70deg, #dde4ee 40%, #fff 60%);
+    background: linear-gradient(48deg, #dde4ee 38%, #fff 50%);
 
 }
 
