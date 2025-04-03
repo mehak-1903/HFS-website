@@ -277,20 +277,8 @@ main{
     font-family: 'Poppins', sans-serif;
 }
 
-/* .grid-images p{
-    position: absolute;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    border: 1px solid red;
-    transform: translate(-50%, -50%);
-    /* top: 10px; */
-    left: 22%;
-    z-index: 1000;
-}
 .explore-more{
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
 }
 
