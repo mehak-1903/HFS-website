@@ -196,7 +196,7 @@ nav{
     position: absolute;
     background-color: #fff;
     width: 140px;
-    padding: 15px 0;
+    padding: 20px 0 15px 0;
     top: 100%;
     left: 77%;
     border-radius: 10px;
@@ -204,7 +204,7 @@ nav{
 
 .explore-dropdown li{
     list-style: none;
-    padding: 8px 8px 8px 34px;  
+    padding: 6px 8px 6px 34px;  
     text-align: left;
     margin:auto;
 }
