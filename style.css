@@ -334,8 +334,8 @@ main{
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     /* border: 1px solid greenyellow; */
-    height: 382px;
-    width: 93.3%;
+    height: 330px;
+    width: 90.3%;
     margin: auto;
 }
 
@@ -343,14 +343,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    /* border-radius: 10px; */
     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0)); */
 }
 
 .grid-images img{
     width: 100%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .middle{
@@ -397,25 +397,52 @@ main{
 .grid-text{
     position: absolute;
     align-items: center;
-    color: #fff;
-    margin-bottom: -7%;
+    color: #fff;  
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(17, 20, 22, 0.9) 8.33%, rgba(18, 22, 26, 0.621) 55.25%, rgba(30, 66, 103, 0) 104.17%);
+}
+
+.img1{
+    margin-bottom: -5.6%;
+    padding: 30px 22px 3px;
+    border-radius: 10px;
+}
+
+.img2{
+    margin-bottom: -5.8%;
+    padding: 30px 66px 3px;
+    border-radius: 10px;
+}
+
+.img4{
+    margin-bottom: -5.8%;
+    padding: 30px 52px 3px;
+    border-radius: 10px;
+}
+
+.img5{
+    margin-bottom: -6%;
+    padding: 30px 61px 3px;
+    border-radius: 10px;
 }
 
 .grid-text2{
+    /* text-align: center; */
     position: absolute;
-    align-items: center;
     color: #fff;
-    margin-bottom: -20%;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    padding: 30px 60px 3px;
+    margin-bottom: -18.6%;
+    border-radius: 10px;
+    background:linear-gradient(0deg, rgba(17, 20, 22, 0.9) 8.33%, rgba(18, 22, 26, 0.621) 55.25%, rgba(30, 66, 103, 0) 104.17%);
 }
 
 .explore-more{
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -440,8 +467,9 @@ main{
 .about-loans{
     max-width: 100%;
     height: 985px;
-    /* border: 1px solid green; */
-    /* background: linear-gradient(45deg, #dde4ee 40%, #fff 60%); */
+    background-image: url('bg_d.jpg');
+    background-size: cover;
+    object-fit: cover;
 }
 
 .loans-container{
@@ -450,8 +478,6 @@ main{
     /* border: 1px solid palevioletred; */
     margin: 70px auto;
     display: flex;
-    background: linear-gradient(48deg, #dde4ee 38%, #fff 50%);
-
 }
 
 .subcontainer1{
@@ -475,8 +501,6 @@ main{
 }
 
 .dots-image img{
-    /* margin-top: 100px; */
-    /* height: 100px; */
     width: 100%;
 
 }
@@ -499,13 +523,10 @@ main{
     line-height: 1.8em;
     margin-top: 20px;
     text-align: left;
-    /* margin-left: 13%; */
-    
 }
 
 .loan-btn{
     margin-top: 40px;
-    /* margin-left: 22%; */
 }
 
 .loan-btn a{
@@ -559,6 +580,7 @@ main{
 .box1:hover{
     background-color: #004083;
     color: #fff !important;
+    border: 2px solid #000;
 }
 .box1 svg{
     margin-top: 15px;
@@ -620,6 +642,7 @@ main{
 .box2:hover{
     background-color: #004083;
     color: #fff !important;
+    border: 2px solid #000;
 }
 
 .box2 a{
@@ -682,6 +705,7 @@ main{
 .box3:hover{
     background-color: #004083;
     color: #fff !important;
+    border: 2px solid #000;
 }
 
 .box3 a{
@@ -799,22 +823,23 @@ hr{
 }
 .upward-circle{
     position: absolute;
-    top: -14%;
+    width: 366px;
+    top: -13%;
     left: -41%;
 }
 
 .downward-circle{
     position: absolute;
-    width: 353px;
+    width: 363px;
     top: 51%;
-    left: -43%;     
+    left: -42%;     
     transform: rotate(180deg);
 }
 .circle{
     position: relative;
-    height: 190px;
-    width: 190px;
-    border: 10px solid #f7ac17;
+    height: 200px;
+    width: 200px;
+    border: 6px solid #f7ac17;
     border-radius: 50%;
     background-color: #fff;
 }
