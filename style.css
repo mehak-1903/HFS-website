@@ -32,7 +32,7 @@ nav{
 }
 
 .logo img{
-    width: 100%;  
+    /* width: 100%;   */
 }
 
 .navbar{
@@ -73,11 +73,11 @@ nav{
 .apply-now{
     background-color: #004083;
     color: #fff;
-    padding: 10px 16px;
+    padding: 8px 17px;
     font-size: 14px;
     line-height: 21px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600px;
+    font-weight: 600;
     border-radius: 40px;
     border: none;
     text-decoration: none;
@@ -334,7 +334,9 @@ main{
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     /* border: 1px solid greenyellow; */
-    height: 350px;
+    height: 382px;
+    width: 93.3%;
+    margin: auto;
 }
 
 .grid-images{
@@ -396,7 +398,7 @@ main{
     position: absolute;
     align-items: center;
     color: #fff;
-    margin-bottom: -8%;
+    margin-bottom: -7%;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -406,14 +408,14 @@ main{
     position: absolute;
     align-items: center;
     color: #fff;
-    margin-bottom: -22%;
+    margin-bottom: -20%;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
 
 .explore-more{
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -422,8 +424,8 @@ main{
     font-family: "Poppins", Sans-serif;
     font-size: 18px;
     font-weight: 600;
-    border-radius: 40px 40px 40px 40px;
-    padding: 15px 32px;
+    border-radius: 40px;
+    padding: 14px 32px;
     text-align: center;
     color: #fff;
     text-decoration: none;
