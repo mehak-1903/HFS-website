@@ -80,6 +80,7 @@ nav{
     font-weight: 600px;
     border-radius: 40px;
     border: none;
+    text-decoration: none;
 }
 
 .apply-now:hover{
@@ -772,8 +773,11 @@ main{
     margin-top: 15px;
 }
 
+.text p a{
+    text-decoration: none;
+}
 
-.text p span{
+.text a span{
     color: #f7ac17;
 }
 
